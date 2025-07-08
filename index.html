@@ -4,114 +4,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>코지하우스 시안만들기</title>
-
+    <title>코지하우스 따라만들기</title>
     <link rel="stylesheet" href="./lib/css/reset.css">
-    <link rel="stylesheet" href="./lib/css/cummon.css">
+    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./lib/css/fonts.css">
-
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="./lib/js/jquery-1.12.4.min.js"></script>
+    <script src="./lib/js/swiper-bundle.min.js"></script>
     <script src="./js/custom.js"></script>
+
 </head>
 
 <body>
 
     <header id="header">
-        <div class="inner hd_wrap">
+        <div class="hd_wrap">
             <h1>
                 <a href="/">
-                    <img src="./받은자료/96e142db07884.png" alt="">
+                    <img src="./images/logo.png" alt="코지하우스">
                 </a>
             </h1>
             <nav class="gnb">
                 <ul>
+                    <li><a href="">브랜드</a>
+                        <ul>
+                            <li><a href="">브랜드 스토리</a></li>
+                            <li><a href="">인테리어</a></li>
+                        </ul>
+                    </li>
                     <li><a href="">메뉴</a></li>
                     <li><a href="">매장 위치</a></li>
-                    <li><a href="">커뮤니티</a></li>
-                    <li><a href="">입점·가맹 안내</a></li>
+                    <li><a href="">커뮤니티</a>
+                        <ul>
+                            <li><a href="">공지 & 이벤트</a></li>
+                            <li><a href="">언론</a></li>
+                            <li><a href="">오픈 안내</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">입점·가맹 안내</a>
+                        <ul>
+                            <li><a href="">경쟁력</a></li>
+                            <li><a href="">빠른 출점 매장</a></li>
+                            <li><a href="">토지·건축 안내</a></li>
+                            <li><a href="">입점 제안</a></li>
+                        </ul>
+                    </li>
                     <li><a href="">가맹본부</a></li>
-                    <li><a href="">브랜드</a></li>
                 </ul>
             </nav>
+
             <div class="utils">
                 <a href="">
-                    <img src="./받은자료/open_in_new_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                </a>
-                <a href="">
-                    <img src="./받은자료/menu.svg" alt="">
+                    <img src="./images/alert-circle.svg" alt="">
+                    <span>창업안내</span>
                 </a>
             </div>
         </div>
     </header>
 
     <main id="content">
-
-        <section class="main_visual default">
-
+        <section class="main_visual">
             <div class="slg">
                 <h2 class="serif">Feel at home, COZY HOUSE</h2>
                 <p>좋은 레스토랑의 새로운 기준, 집처럼 편안하게 즐기는 코지하우스</p>
+                <a href="" class="default_btn">브랜드 스토리</a>
+            </div>
+        </section>
+
+        <section class="main_menu default">
+            <div class="title">
+                <h2>SIGNATURE MENU</h2>
+                <p>코지하우스에서만 맛볼 수 있는 시그니처 메뉴</p>
+            </div>
+            <div class="slide_wrap">
+                <div class="swiper main_menu_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_menu01.png" alt="">
+                            </figure>
+                            <strong>10달러 스테이크 | 10$ Steak</strong>
+                            <p>그릴에 구워 육즙이 가득한 프리미엄 소고기 스테이크와 다양한 가니쉬</p>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_menu02.png" alt="">
+                            </figure>
+                            <strong>스테이크 피자 | Steak Pizza</strong>
+                            <p>바삭한 페스츄리 도우에 육즙가득 스테이크가 듬뿍 올린 피자</p>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_menu03.png" alt="">
+                            </figure>
+                            <strong>킬바사 빠네 파스타 | Kilebasa Pane Pasta</strong>
+                            <p>킬바사 소세지가 통째로! 빠네빵과 만나 어울러지는 매콤한 투움바파스타</p>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_menu04.png" alt="">
+                            </figure>
+                            <strong>큐브 스테이크 필라프 | Cube Steak Pilaf</strong>
+                            <p>육즙가득한 프리미엄 큐브 스테이크와 다양한 야채를 곁들인 필라프</p>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_menu05.png" alt="">
+                            </figure>
+                            <strong>프리미엄 스테이크 | Cozy Premium Steak</strong>
+                            <p>스테이크 최고 등급, 프리미엄 등급의 육즙 가득한 소고기와 다양한 가니쉬</p>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_menu06.png" alt="">
+                            </figure>
+                            <strong>킬바사 빠네 파스타 | Kilebasa Pane Pasta</strong>
+                            <p>킬바사 소세지가 통째로! 빠네빵과 만나 어울러지는 매콤한 투움바파스타</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn_wrap">
+                <a href="" class="default_btn">메뉴더보기</a>
             </div>
 
         </section>
 
-        <section class="main_content default">
-
-            <div class="title">
-                <h2>코지하우스 메뉴</h2>
-                <p>코지하우스에서만 맛볼 수 있는 시그니처 메뉴</p>
-            </div>
-
+        <section class="main_info default">
             <div class="inner">
-                <a href="" class="itm">
+                <div class="left">
+                    <div class="title">
+                        <h2>
+                            <span>Italian Restaurant</span>
+                            COZY HOUSE
+                        </h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="itm">
+                        <strong>Brand</strong>
+                        <p>가족들과 가볍게 즐길 수 있는 우리 동네 레스토랑</p>
+                    </div>
+                    <div class="itm">
+                        <strong>Menu</strong>
+                        <p>다양한 연령대의 고객들이 만족할 수 있는 퓨전 이탈리안 메뉴</p>
+                    </div>
+                    <div class="itm">
+                        <strong>Franchise</strong>
+                        <p>고객과 가맹점의 성공을 위해 함께 노력하는 창업 파트너</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_news default">
+            <div class="title">
+                <h2>COZY NEWS</h2>
+                <p>코지하우스의 최신소식을 확인하세요.</p>
+            </div>
+            <div class="inner">
+                <a href"" class="itm">
                     <figure>
-                        <img src="./받은자료/meat-1155132_1920.jpg" alt="">
+                        <img src="./images/main_news01.png" alt="">
                     </figure>
-                    <strong>코지하우스 럭키 스크래치 쿠폰 EVENT!</strong>
+                    <p>코지하우스 어린이 그림 그리기 대회 EVENT!</p>
                 </a>
-                <a href="" class="itm">
+                <a href"" class="itm">
                     <figure>
-                        <img src="./받은자료/meat-1155132_1920.jpg" alt="">
+                        <img src="./images/main_news02.png" alt="">
                     </figure>
-                    <strong>코지하우스 럭키 스크래치 쿠폰 EVENT!</strong>
+                    <p>[혜택안내] 코나카드 쓰고 50%혜택 받자 ★기간 : 3월13일~4월9일★</p>
                 </a>
-                <a href="" class="itm">
+                <a href"" class="itm">
                     <figure>
-                        <img src="./받은자료/meat-1155132_1920.jpg" alt="">
+                        <img src="./images/main_news03.png" alt="">
                     </figure>
-                    <strong>코지하우스 럭키 스크래치 쿠폰 EVENT!</strong>
+                    <p>양식 레스토랑 프랜차이즈 '코지하우스', 아산 신정호점 신규 오픈</p>
+                </a>
+                <a href"" class="itm">
+                    <figure>
+                        <img src="./images/main_news04.png" alt="">
+                    </figure>
+                    <p>코지하우스, 보육원 아동 무료 식사 제공부터 선한영향력 가게까지</p>
                 </a>
             </div>
         </section>
 
-        <section class="main_event default">
-
-            <div class="title">
-                <h2>코지하우스 메뉴</h2>
-                <p>코지하우스에서만 맛볼 수 있는 시그니처 메뉴</p>
-            </div>
-
+        <section class="main_house default">
             <div class="inner">
-                <a href="" class="itm">
-                    <figure>
-                        <img src="./받은자료/meat-1155132_1920.jpg" alt="">
-                    </figure>
-                    <strong>코지하우스 럭키 스크래치 쿠폰 EVENT!</strong>
-                </a>
-                <a href="" class="itm">
-                    <figure>
-                        <img src="./받은자료/meat-1155132_1920.jpg" alt="">
-                    </figure>
-                    <strong>코지하우스 럭키 스크래치 쿠폰 EVENT!</strong>
-                </a>
-                <a href="" class="itm">
-                    <figure>
-                        <img src="./받은자료/meat-1155132_1920.jpg" alt="">
-                    </figure>
-                    <strong>코지하우스 럭키 스크래치 쿠폰 EVENT!</strong>
-                </a>
+                <div class="title">
+                    <h2>전국 어디에서나 코지하우스와 함께!</h2>
+                    <p>코지하우스는 여러분 가까이에 있습니다.</p>
+                    <a href="" class="default_btn">매장 찾기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_interior default">
+            <div class="inner">
+                <div class="left">
+                    <div class="title">
+                        <h2>INTERIOR DESIGN</h2>
+                        <p>편안하고 안락한 빈티지 무드의 공간으로 초대합니다.</p>
+                        <a href="" class="default_btn">인테리어 더보기</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="swiper main_interior_slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm">
+                                <figure>
+                                    <img src="./images/main_interior01.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <figure>
+                                    <img src="./images/main_interior02.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <figure>
+                                    <img src="./images/main_interior03.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <figure>
+                                    <img src="./images/main_interior04.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <figure>
+                                    <img src="./images/main_interior05.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <figure>
+                                    <img src="./images/main_interior06.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_sns default">
+            <div class="title">
+                <h2>COZY HOUSE SNS</h2>
+                <p>코지하우스의 메뉴와 무드를 직접 후기에서 확인하세요.</p>
+            </div>
+            <div class="inner">
+                <div class="swiper main_sns_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns01.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns02.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns03.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns04.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns05.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns06.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns07.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <figure>
+                                <img src="./images/main_sns08.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button class="prev">
+                        <img src="./images/arrow-left.svg" alt="">
+                    </button>
+                    <button class="next">
+                        <img src="./images/arrow-right.svg" alt="">
+                    </button>
+                </div>
             </div>
         </section>
 
@@ -119,7 +318,52 @@
 
     <footer id="footer">
         <div class="inner">
-            <p>© kang.</p>
+            <a href="https://www.instagram.com/cozy_house_korea" target="_blank" class="sns">
+                <img src="./images/instagram-white.svg" alt="">
+            </a>
+
+            <ul class="customer">
+                <li><a href="">브랜드</a></li>
+                <li><a href="">메뉴</a></li>
+                <li><a href="">매장 위치</a></li>
+                <li><a href="">커뮤니티</a></li>
+                <li><a href="">입점·가맹 안내</a></li>
+                <li><a href="">가맹본부</a></li>
+            </ul>
+
+            <strong class="serif">Head office</strong>
+
+            <p style="font-weight: 700;">
+                (주)코지하우스코리아
+            </p>
+
+            <p>
+                <span>대표자명 : 안병대</span>
+                <span>사업자등록번호 : 496-81-02979</span>
+            </p>
+
+            <p>
+                Address : 부산시 해운대구 센텀중앙로 90 2003호
+            </p>
+
+            <p>
+                <span>E-mail : storyfc@storyfc.com</span>
+                <span>TEL : 1899-6683</span>
+                <span> FAX : 053-289-6683</span>
+            </p>
+
+            <p>
+                <span>평일 09:00-18:00 (점심시간 12:00-13:00)</span>
+                <span>토, 일, 공휴일 휴무</span>
+            </p>
+
+            <ul class="utils">
+                <li><a href="">이용약관</a></li>
+                <li><a href="" style="font-weight: 700;">개인정보처리방침</a></li>
+            </ul>
+
+            <address>Copyright ⓒ 2025 코지하우스 공식 홈페이지 All rights reserved.</address>
+
         </div>
     </footer>
 
